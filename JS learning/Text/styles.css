@@ -1,0 +1,23 @@
+.twink-text {
+    font-size: 30px;
+    padding-left: 5px;
+    border: 1px solid black;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.chord {
+    color: rgb(0, 131, 197);
+    font-size: 22px;
+    padding-inline: 4px;
+}
+
+.line {
+    display: block;
+}
+
+.line-chords {
+    display: block;
+    line-height: 0.8em; /* Уменьшает высоту строки */
+}

@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(24, 24, 26, 0.97);
+}
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.main-container>h1 {
+    color: white;
+    margin-top: 25px;
+}
+
+.content-container {
+    width: 80%;
+    margin-inline: auto;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-note {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+
+.add-button {
+    background-color: aquamarine;
+    margin-top: 5px;
+    font-size: large;
+}
+
+.note-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-top: 6px;
+    padding-left: 15px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.confirm-button,
+.deny-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    font-size: x-large;
+}
+
+.confirm-button {
+    margin-right: 10px;
+    background-color: rgba(0, 128, 0, 0.723);
+}
+
+.deny-button {
+    background-color: rgba(219, 21, 21, 0.734);
+}
+
+.list-notes {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.unconfirm-button {
+    background-color: rgba(255, 191, 0, 0.671);
+    color: black;
+}
+
+.note-completed {
+    color: rgb(115, 115, 115);
+}

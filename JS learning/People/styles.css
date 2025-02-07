@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(24, 24, 26, 0.97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+.main-container>h1 {
+    color: white;
+    margin-top: 25px;
+    align-self: center;
+}
+
+.name-input {
+    background-color: white;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.human-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: larger;
+}
+
+.details-container,
+.name-container {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.name-container {
+    display: flex;
+    min-height: 40px;
+    align-items: center;
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: minmax(0, 15%) minmax(0, 85%);
+    gap: 0px 10px; /* Расстояние между колонками */
+    margin-left: 30px;
+    margin-top: 5px;
+    grid-auto-rows: auto;
+    padding-left: 20px;
+}
+
+.detail-label {
+    font-weight: bold;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.detail-value {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-right: 10px;
+}
+
+.human-name {
+    padding-left: 15px;
+}
+
+.more-button,
+.hide-button {
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+    .main-container {
+        width: 80%;
+    }
+}
+
+@media (max-width:650px) {
+    .details-container {
+        grid-template-columns: minmax(0, 20%) minmax(0, 80%);
+    }
+}
