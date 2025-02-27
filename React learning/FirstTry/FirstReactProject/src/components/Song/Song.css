@@ -1,0 +1,7 @@
+.song-container {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin-inline: auto;
+    border-bottom: 1px solid rgb(160, 160, 160);
+  }

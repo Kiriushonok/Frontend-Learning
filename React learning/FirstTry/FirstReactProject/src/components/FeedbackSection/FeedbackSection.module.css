@@ -1,0 +1,18 @@
+.fieldsContainer {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.field {
+    width: 100%;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    margin-bottom: 20px;
+}
+
+.header {
+    text-align: center;
+    color: rgb(0, 137, 137);
+}

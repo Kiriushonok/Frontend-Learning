@@ -1,0 +1,8 @@
+dialog {
+    width: 500px;
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-top: 5rem;
+}
